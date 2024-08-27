@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header>
+        <img class="logo" src="imagenes/alura logo.png" alt="Logo Alura">
+    </header>
+
+    <main class="introduccion">
+        <section class="contenedor_entrada">
+            <textarea id="contenedor_texto_entrada" class="contenedor_texto_entrada_clase" rows="10" cols="50" placeholder="Ingrese el texto aquí"></textarea>
+            <p class="alerta"><strong>!</strong> Solo letras minúsculas y sin acento</p>
+            <div class="botones">
+                <button id="boton_encriptar" class="botones_estilo">Encriptar</button>
+                <button id="boton_desencriptar" class="botones_estilo">Desencriptar</button>
+            </div>
+        </section>
+
+        <section class="contenedor_salida">
+            <img class="imagen" src="imagenes/Muñeco.png" alt="Imagen Alerta">
+            <textarea id="contenedor_texto_salida" class="contenedor_texto_salida_clase"></textarea>
+            <p class="texto_salida_alerta">Ningún mensaje fue encontrado</p>
+            <button id="boton_copiar" class="botones_estilo">Copiar</button>
+        </section>
+    </main>
+
+    <footer>
+        <div class="datos_desarrolladora">
+            <p class="datos_desarrolladora_estilo">Desarrollado por Lu Balocco</p>
+        </div>
+        <div class="enlaces_desarrolladora">
+            <a href="https://linkedin.com/in/lu-balocco"><img class="enlaces_estilo" src="imagenes/linkedin.png" alt="Imagen Ícono LinkedIn"></a>
+            <a href="https://github.com/luliblue"><img class="enlaces_estilo" src="imagenes/github logo.png" alt="Imagen Ícono Github"></a>
+        </div>
+    </footer>
+
+    <script src="app.js"></script>
+    
+</body>
+</html>
